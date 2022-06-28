@@ -1,0 +1,28 @@
+.light-text {
+  color: var(--grey-300);
+}
+
+.text-center {
+  text-align: center;
+}
+
+// ==> active menu class <==
+
+.active {
+  color: var(--link-color);
+  font-family: var(--heading-font);
+  font-weight: bold;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block {
+  display: flex;
+
+  align-items: center;
+  flex-basis: 100%;
+  padding: var(--x-padding) 0;
+}

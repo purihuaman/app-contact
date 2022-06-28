@@ -1,0 +1,29 @@
+// ==> Themes dark and light <==
+
+:root {
+  --grey-100: #f2f2f7;
+  --grey-200: #ebebf0;
+  --grey-300: #e5e5ea;
+  --grey-400: #8b8e93;
+  --grey-500: #51555c;
+  --grey-600: #1f2533;
+  --grey-700: #191f2a;
+  --grey-800: #171c26;
+  --grey-900: #151922;
+  --grey-1000: #15192280;
+
+  // rgb
+  --dark-rgba: #15192290;
+  --light-rgba: #f2f2f790;
+}
+
+:root {
+  --first-bg: var(--grey-900);
+  --second-bg: var(--grey-800);
+  --third-bg: var(--grey-700);
+  --title-color: var(--grey-200);
+  --text-color: var(--grey-300);
+  --border-color: var(--grey-600);
+  --link-color: var(--primary-500);
+  --darkbg-rgba: var(--dark-rgba);
+}
